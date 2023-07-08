@@ -3,21 +3,20 @@ import os
 
 class Config:
 
-    BOT_TOKEN = "5852961083:AAFdeppbp6Bq0--jKlNU2eQuWZU9UA27iBE"
-
+    BOT_TOKEN = "1117107660:AAExjFFYdxl8kSTn-9nHWGVFQ5R5TnonmaQ"
     SESSION_NAME = ":memory:"
 
-    API_ID = "20620984"
+    API_ID = "26489380"
 
-    API_HASH = "7a710d252533a33b7db67fc42d62a1b6"
+    API_HASH = "4167d8b8779aab33b73810feb3c77021"
 
-    CLIENT_ID = "814700032498-710erok2296p0182aqraml1avkfmn0su.apps.googleusercontent.com"
+    CLIENT_ID = "642978573000-02vrq5kussq9t1h65r1sff2f5o03gjls.apps.googleusercontent.com"
 
-    CLIENT_SECRET = "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"
+    CLIENT_SECRET = "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"
 
-    BOT_OWNER = "5956062507"
+    BOT_OWNER = "932420516"
 
-    AUTH_USERS_TEXT = "5956062507"
+    AUTH_USERS_TEXT = "932420516"
 
     AUTH_USERS = [BOT_OWNER, 754495556] + (
         [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]
